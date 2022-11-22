@@ -1,0 +1,367 @@
+body {
+    background-color: #3b5598;
+    font-family: verdana;
+}
+
+.container,
+.container2,
+.heart,
+.novelimage,
+.like,
+.LIKE,
+.message,
+.message2 {
+    display: flex;
+}
+
+.container {
+    width: 40%;
+    height: 100px;
+    margin: auto;
+}
+
+.fbimage {
+    font-size: 50px;
+    color: #fff;
+    padding: 10px;
+}
+
+.container2 {
+    width: 40%;
+    background-color: #ffff;
+    height: 78rem;
+    margin: 4rem;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.time,
+.you,
+.comment,
+.LIKE,
+.message2 {
+    color: grey;
+}
+
+.userimage {
+    background-color: #3b5998;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+
+.userimage,
+.heart,
+.you,
+.border,
+.like,
+.LIKE,
+.message,
+.message2 {
+    float: left;
+}
+
+.user,
+.time {
+    font-size: 18px;
+    margin-left: 2rem;
+    margin-bottom: 30px;
+}
+
+.user {
+    color: #3b5998;
+}
+
+.line1,
+.line2,
+.line3 {
+    margin-left: 40px;
+}
+
+.line3 {
+    color: blue;
+}
+
+.novelimage,
+.border {
+    width: 100%;
+}
+
+.heart {
+    width: 30%;
+    cursor: pointer;
+}
+
+.you {
+    font-size: 16px;
+    margin-top: 4.5rem;
+}
+
+.comment {
+    font-size: 16px;
+    float: right;
+    margin-top: 4.5rem;
+    margin-right: 50px;
+}
+
+.border {
+    border-bottom: 2px solid lightgrey;
+}
+
+.like {
+    margin-top: 1rem;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+.LIKE {
+    font-size: 20px;
+    margin-top: 1.9rem;
+    margin-left: 1rem;
+}
+
+.message {
+    margin-top: 1rem;
+    margin-left: 6rem;
+    cursor: pointer;
+}
+
+.message2 {
+    font-size: 20px;
+    margin-top: 1.9rem;
+    margin-left: 1rem;
+}
+
+
+
+                     /*   MEDIA QUERIES CODE   */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles 
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 150px) and (max-width: 479px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .mediaCard,
+    .container2,
+    .container,
+    .fbimage,
+    .userimage,
+    .user,
+    .time {
+        float: left;
+    }
+
+    .mediaCard {
+        width: 93%;
+    }
+
+    .container2,
+    .container {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .container2 {
+        height: 59rem;
+    }
+
+    .fbimage {
+        font-size: 30px;
+        width: auto;
+
+    }
+
+    .userimage {
+        width: 80px;
+        margin-top: 1rem;
+    }
+
+    .user,
+    .time {
+        font-size: 15px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .line1,
+    .line2,
+    .line3 {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .heart {
+        width: 60px;
+        display: flex;
+    }
+
+    .you,
+    .comment {
+        font-size: 12px;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .comment {
+        margin-right: 3px;
+        float: right;
+    }
+
+    .like,
+    .message {
+        width: 50px;
+        margin-left: 12px;
+    }
+
+    .LIKE,
+    .message2 {
+        font-size: 12px;
+        width: 60px;
+    }
+
+    .border {
+        width: 100%;
+    }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles 
+  ##Screen = B/w 480px to 767px
+*/
+
+@media (min-width: 480px) and (max-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .mediaCard {
+        width: 80%;
+    }
+
+    .fbimage {
+        margin-left: 2rem;
+        width: auto;
+
+    }
+
+    .container2,
+    .container {
+        width: 74%;
+        margin-left: 10px;
+    }
+
+    .container2 {
+        height: 60rem;
+        margin-left: 3rem;
+    }
+
+    .line1,
+    .line2,
+    .line3 {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .heart {
+        width: 60px;
+        display: flex;
+    }
+
+    .you,
+    .comment {
+        font-size: 12px;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .comment {
+        margin-right: 5px;
+    }
+
+    .like,
+    .message {
+        width: 70px;
+        margin-left: 10px;
+    }
+
+    .LIKE,
+    .message2 {
+        font-size: 16px;
+        width: 50px;
+    }
+
+    .border {
+        width: 100%;
+    }
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mediaCard {
+        width: 80%;
+    }
+
+    .novelimage {
+        width: 100%;
+    }
+
+    .container2,
+    .container {
+        width: 75%;
+        margin-left: 10px;
+    }
+
+    .container2 {
+        height: 70rem;
+        margin-left: 12rem;
+    }
+
+    .fbimage {
+        margin-left: 11rem;
+        /* width: auto; */
+    }
+
+    .like,
+    .message {
+        width: 100px;
+        margin-left: 25px;
+    }
+
+    .LIKE,
+    .message2 {
+        font-size: 20px;
+        width: 70px;
+    }
+
+    .heart {
+        width: 90px;
+        display: flex;
+    }
+
+    .you,
+    .comment {
+        font-size: 14px;
+        display: flex;
+        margin-top: 35px;
+    }
+
+    .comment {
+        margin-right: 10px;
+    }
+}
+
+
+
+
+                        /*   MEDIA QUERIES CODE END    */
