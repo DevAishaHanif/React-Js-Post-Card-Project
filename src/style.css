@@ -207,20 +207,20 @@ body {
     }
 
     .comment {
-        margin-right: 3px;
+        margin-right: 10px;
         float: right;
     }
 
     .like,
     .message {
         width: 50px;
-        margin-left: 12px;
+        margin-left: 16px;
     }
 
     .LIKE,
     .message2 {
         font-size: 12px;
-        width: 60px;
+        width: 90px;
     }
 
     .border {
